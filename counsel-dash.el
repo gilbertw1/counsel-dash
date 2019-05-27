@@ -39,9 +39,28 @@
 (defalias 'counsel-dash-activate-docset 'dash-docs-activate-docset)
 (defalias 'counsel-dash-deactivate-docset 'dash-docs-deactivate-docset)
 (defalias 'counsel-dash-install-docset 'dash-docs-install-docset)
+(defalias 'counsel-dash-installed-docsets 'dash-docs-installed-docsets)
 (defalias 'counsel-dash-install-docset-from-file 'dash-docs-install-docset-from-file)
 (defalias 'counsel-dash-install-user-docset 'dash-docs-install-user-docset)
 (defalias 'counsel-dash-reset-connections 'dash-docs-reset-connections)
+
+;; temporary aliases for backwards compatability
+(defvaralias 'helm-dash-docsets-path 'dash-docs-docsets-path)
+(defvaralias 'helm-dash-docsets-url 'dash-docs-docsets-url)
+(defvaralias 'helm-dash-min-length 'dash-docs-min-length)
+(defvaralias 'helm-dash-candidate-format 'dash-docs-candidate-format)
+(defvaralias 'helm-dash-enable-debugging 'dash-docs-enable-debugging)
+(defvaralias 'helm-dash-browser-func 'dash-docs-browser-func)
+(defvaralias 'helm-dash-common-docsets 'dash-docs-common-docsets)
+(defvaralias 'helm-dash-ignored-docsets 'dash-docs-ignored-docsets)
+
+(defalias 'helm-dash-activate-docset 'dash-docs-activate-docset)
+(defalias 'helm-dash-deactivate-docset 'dash-docs-deactivate-docset)
+(defalias 'helm-dash-install-docset 'dash-docs-install-docset)
+(defalias 'helm-dash-install-docset-from-file 'dash-docs-install-docset-from-file)
+(defalias 'helm-dash-installed-docsets 'dash-docs-installed-docsets)
+(defalias 'helm-dash-install-user-docset 'dash-docs-install-user-docset)
+(defalias 'helm-dash-reset-connections 'dash-docs-reset-connections)
 
 (defvar counsel-dash-history-input nil
   "Input history used by `ivy-read'.")
